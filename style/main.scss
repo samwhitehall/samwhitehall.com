@@ -87,10 +87,12 @@ nav#site {
     }
 
     #bio aside h1 { border-bottom-color: $rainbow-1; }
-    #projects aside h1 { border-bottom-color: $rainbow-2; }
+    #projects aside h1 { border-bottom-color: $rainbow-3; }
+    #cv aside h1 { border-bottom-color: $rainbow-5; }
 
     #bio .pattern { background: $rainbow-1-light; }
-    #projects .pattern { background: $rainbow-2-light; }
+    #projects .pattern { background: $rainbow-3-light; }
+    #cv .pattern { background: $rainbow-5-light; }
 
 }
 
