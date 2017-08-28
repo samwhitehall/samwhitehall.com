@@ -23,18 +23,31 @@ header {
     padding-left: $page-padding;
     padding-right: $page-padding;
 
-    aside {
-        @include type-setting(2);
-        @include body-font;
+    // clearfix 
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
+    aside {
         float: left; 
         width: (($width - 2 * $page-padding) * (1/3)) - (2 * $box-padding);
         padding-right: $box-padding;
 
-        border-bottom: $thin-underline solid $rainbow-1;
+        h1 {
+            @include type-setting(2);
+            @include body-font;
+
+            border-bottom: $thin-underline solid $rainbow-1;
+        }
+
+        .pattern {
+            height: $base-line-height;
+            background-color: $rainbow-1-light;
+        }
     }
 
-    
     section {
         float: right;
         width: $width * (2/3); 

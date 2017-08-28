@@ -24,11 +24,11 @@ $rainbow-5: #6a91a4;
 $link: $rainbow-5;
 $link-hover: lighten($rainbow-5, 10%);
 
-$rainbow-1-light: lighten(#ff7a7a, 5%);
-$rainbow-2-light: lighten(#ffc078, 5%);
-$rainbow-3-light: lighten(#ffde70, 5%);
-$rainbow-4-light: lighten(#8fa97f, 5%);
-$rainbow-5-light: lighten(#6a91a4, 5%);
+$rainbow-1-light: lighten(#ff7a7a, 20%);
+$rainbow-2-light: lighten(#ffc078, 20%);
+$rainbow-3-light: lighten(#ffde70, 20%);
+$rainbow-4-light: lighten(#8fa97f, 20%);
+$rainbow-5-light: lighten(#6a91a4, 20%);
 
 /* font styles */
 @mixin header-font() {
