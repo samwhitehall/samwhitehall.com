@@ -10,32 +10,20 @@ header {
 
     padding-top: 6rem;
 
-    h1 {
-        margin-top: 2rem;
-    }
+    h1 { margin-top: 2rem; }
 }
 
 /* navigation elements */
 nav {
-    ul {
-        text-align: center;
-    }
-
-    li {
-        display: inline;
-    }
-
-    a {
-        text-decoration: none;
-    }
+    ul { text-align: center; }
+    li { display: inline; }
+    a { text-decoration: none; }
 }
 
 nav#contact {
     margin-top: 2rem;
 
-    li {
-        padding: 12px;
-    }
+    li { padding: 12px; }
 }
 
 nav#site {
