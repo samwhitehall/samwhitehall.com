@@ -1,13 +1,14 @@
 /* sizes */
-$width: 760px;
+$width: 800px;
 $border: 1px;
+$padding: 24px;
 
 /* colour */
 $background: #fefffe;
 $subtle-hint: #f5f5f5;
 
 $body: #1a2930;
-$sub: desaturate(lighten($body, 25%), 20%);
+$sub: desaturate(lighten($body, 10%), 10%);
 
 $rainbow-1: #ff7a7a;
 $rainbow-2: #ffc078;
@@ -28,13 +29,25 @@ $rainbow-5-light: lighten(#6a91a4, 5%);
 
 @mixin body-font() {
     font-family: "Raleway", "Verdana", sans-serif;
+    font-weight: 400;
+}
+
+@mixin body-font-italic() {
+    font-family: "Raleway", "Verdana", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@mixin body-font-bold() {
+    font-family: "Raleway", "Verdana", sans-serif;
+    font-weight: 700;
 }
 
 /* typographic baseline */
 /* ~> https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm */
 
 $base-font-size: 1rem;
-$base-line-height: $base-font-size * 1.25;
+$base-line-height: $base-font-size * 1.4;
 
 $type-scale: (
     -1: 0.75rem,
@@ -86,4 +99,12 @@ p {
     @include type-setting(0);
     @include body-font;
     padding-bottom: 1rem;
+}
+
+em {
+    @include body-font-italic;
+}
+
+strong {
+    @include body-font-bold;
 }
