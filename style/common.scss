@@ -1,0 +1,61 @@
+/* sizes */
+$width: 800px;
+$border: 1px;
+
+/* colour */
+$background: #fefffe;
+$subtle-hint: #f5f5f5;
+
+$body: #1a2930;
+$sub: desaturate(lighten($body, 65%), 75%);
+
+/* font styles */
+@mixin header-font() {
+    font-family: "Lato", "Verdana", sans-serif;
+}
+
+@mixin body-font() {
+    font-family: "Raleway", "Verdana", sans-serif;
+}
+
+/* typographic baseline */
+/* ~> https://scotch.io/tutorials/aesthetic-sass-3-typography-and-vertical-rhythm */
+
+$base-font-size: 1rem;
+$base-line-height: $base-font-size * 1.25;
+
+$type-scale: (
+    -1: 0.75rem,
+    0: 1rem,      
+    1: 1.333rem,  
+    2: 1.777rem,
+    3: 2.369rem,
+    4: 3.157rem,   
+    5: 4.209rem,   
+    6: 5.61rem,   
+);
+
+@function type-scale($level) {
+  @return map-get($type-scale, $level);
+}
+
+@mixin type-setting($level: 0) {
+    font-size: type-scale($level);
+    line-height: line-height($level);
+}
+
+/* typography */
+h1 {
+    @include type-setting(4);
+    @include header-font;
+}
+
+h2 {
+    @include type-setting(2);
+    @include header-font;
+}
+
+p {
+    @include type-setting(0);
+    @include body-font;
+}
