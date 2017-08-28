@@ -1,5 +1,5 @@
 /* sizes */
-$width: 800px;
+$width: 760px;
 $border: 1px;
 
 /* colour */
@@ -70,4 +70,5 @@ h2 {
 p {
     @include type-setting(0);
     @include body-font;
+    padding-bottom: 1rem;
 }

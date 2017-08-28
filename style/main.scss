@@ -11,6 +11,17 @@ header {
     padding-top: 6rem;
 
     h1 { margin-top: 2rem; }
+    h2 { margin-top: 1rem; }
+}
+
+section { 
+    margin-left: auto;
+    margin-right: auto;
+    width: $width; 
+}
+
+aside {
+    display: none;
 }
 
 /* navigation elements */
@@ -27,7 +38,7 @@ nav#contact {
 }
 
 nav#site {
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
 
     li {
