@@ -7,7 +7,19 @@ $background: #fefffe;
 $subtle-hint: #f5f5f5;
 
 $body: #1a2930;
-$sub: desaturate(lighten($body, 65%), 75%);
+$sub: desaturate(lighten($body, 25%), 20%);
+
+$rainbow-1: #ff7a7a;
+$rainbow-2: #ffc078;
+$rainbow-3: #ffde70;
+$rainbow-4: #8fa97f;
+$rainbow-5: #6a91a4;
+
+$rainbow-1-light: lighten(#ff7a7a, 5%);
+$rainbow-2-light: lighten(#ffc078, 5%);
+$rainbow-3-light: lighten(#ffde70, 5%);
+$rainbow-4-light: lighten(#8fa97f, 5%);
+$rainbow-5-light: lighten(#6a91a4, 5%);
 
 /* font styles */
 @mixin header-font() {

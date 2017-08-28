@@ -43,3 +43,24 @@ body {
     background-color: $background;
     color: $body;
 }
+
+nav#site {
+    a { 
+        color: $sub; 
+        border-bottom: 2px solid;
+    }
+    a:hover { 
+        color: $body; 
+    }
+    a.active { 
+        color: $body; 
+        border-bottom-width: 5px;
+    }
+
+    a.home { border-bottom-color: $sub; }
+    a.rainbow-1 { border-bottom-color: $rainbow-1; }
+    a.rainbow-2 { border-bottom-color: $rainbow-2; }
+    a.rainbow-3 { border-bottom-color: $rainbow-3; }
+    a.rainbow-4 { border-bottom-color: $rainbow-4; }
+    a.rainbow-5 { border-bottom-color: $rainbow-5; }
+}
