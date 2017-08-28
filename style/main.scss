@@ -55,6 +55,13 @@ header {
             margin-top: $base-line-height;
         }
     }
+
+    #bio aside h1 { border-bottom-color: $rainbow-1; }
+    #projects aside h1 { border-bottom-color: $rainbow-2; }
+
+    #bio .pattern { background: $rainbow-1-light; }
+    #projects .pattern { background: $rainbow-2-light; }
+
 }
 
 /* navigation elements */
