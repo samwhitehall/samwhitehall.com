@@ -86,13 +86,17 @@ nav#site {
         }
     }
 
-    #bio aside h1 { border-bottom-color: $rainbow-1; }
-    #projects aside h1 { border-bottom-color: $rainbow-3; }
-    #cv aside h1 { border-bottom-color: $rainbow-5; }
+    .rainbow-1 aside h1 { border-bottom-color: $rainbow-1; }
+    .rainbow-2 aside h1 { border-bottom-color: $rainbow-2; }
+    .rainbow-3 aside h1 { border-bottom-color: $rainbow-3; }
+    .rainbow-4 aside h1 { border-bottom-color: $rainbow-4; }
+    .rainbow-5 aside h1 { border-bottom-color: $rainbow-5; }
 
-    #bio .pattern { background: $rainbow-1-light; }
-    #projects .pattern { background: $rainbow-3-light; }
-    #cv .pattern { background: $rainbow-5-light; }
+    .rainbow-1 .pattern { background: $rainbow-1-light; }
+    .rainbow-2 .pattern { background: $rainbow-2-light; }
+    .rainbow-3 .pattern { background: $rainbow-3-light; }
+    .rainbow-4 .pattern { background: $rainbow-4-light; }
+    .rainbow-5 .pattern { background: $rainbow-5-light; }
 
 }
 
