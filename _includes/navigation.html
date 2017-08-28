@@ -1,0 +1,29 @@
+<nav id="contact">
+    <ul>
+        <li>
+            <a href="mailto:me@samwhitehall.com">
+                <img src="assets/images/mail.svg" alt="email" width="36" height="36">
+            </a>
+        </li>
+        <li>
+            <a href="http://www.twitter.com/sgwhall">
+                <img src="assets/images/twitter.svg" alt="twitter" width="36" height="36">
+            </a>
+        </li>
+        <li>
+            <a href="http://www.github.com/samwhitehall">
+                <img src="assets/images/github.svg" alt="github" width="36" height="36">
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<nav id="site">
+    <ul>
+        {% for section in site.sections %}
+        <li>
+            <a href="#{{ section.name }}" class="rainbow-{{ section.colour }}">{{ section.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

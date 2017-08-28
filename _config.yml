@@ -1,0 +1,12 @@
+title: sam whitehall
+description: software developer in Oxford
+sitename: sam whitehall
+baseurl: ''
+sass:
+  sass_dir: /assets/_sass
+collections:
+  - sections
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME

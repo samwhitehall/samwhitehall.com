@@ -1,0 +1,16 @@
+<div id="wrapper">
+{% for section in site.sections %}
+    <div class="row" id="{{ section.name }}">
+        <aside>
+            <h1>{{ section.title }}</h1>
+            <div class="pattern">&nbsp;</div>
+        </aside>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet, <em>consectetur adipiscing elit</em>. Morbi nec <a href="#">turpis quis est faucibus</a> convallis at et mi. Maecenas laoreet, dolor vel malesuada egestas, leo nulla semper justo, et aliquet ipsum tellus porta mi. In et justo imperdiet, eleifend nisi vel, condimentum libero. Nulla bibendum aliquam justo ac tincidunt. Duis convallis ut velit vitae accumsan. Aenean nec urna nunc.</p>
+            
+            <p>Duis id leo quis lacus eleifend imperdiet vitae eu odio. Suspendisse vulputate sodales urna vitae dignissim. Sed in sem sit amet eros sagittis aliquet. Maecenas non tortor vitae turpis <strong>semper</strong> feugiat. Nam sagittis, lorem eget dictum semper, magna turpis mollis mi, et tincidunt lorem orci sit amet ipsum. Maecenas turpis odio, tincidunt ac ultricies nec, rutrum id odio.</p>
+        </section>
+    </div>
+{% endfor %}
+</div>
