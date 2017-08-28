@@ -16,6 +16,9 @@ $rainbow-3: #ffde70;
 $rainbow-4: #8fa97f;
 $rainbow-5: #6a91a4;
 
+$link: $rainbow-5;
+$link-hover: lighten($rainbow-5, 10%);
+
 $rainbow-1-light: lighten(#ff7a7a, 5%);
 $rainbow-2-light: lighten(#ffc078, 5%);
 $rainbow-3-light: lighten(#ffde70, 5%);
@@ -82,29 +85,4 @@ $line-heights: (
 @mixin type-setting($level: 0) {
     font-size: type-scale($level);
     line-height: line-height($level);
-}
-
-/* typography */
-h1 {
-    @include type-setting(4);
-    @include header-font;
-}
-
-h2 {
-    @include type-setting(2);
-    @include header-font;
-}
-
-p {
-    @include type-setting(0);
-    @include body-font;
-    padding-bottom: 1rem;
-}
-
-em {
-    @include body-font-italic;
-}
-
-strong {
-    @include body-font-bold;
 }

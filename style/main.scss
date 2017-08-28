@@ -79,3 +79,42 @@ nav#site {
     a.rainbow-4 { border-bottom-color: $rainbow-4; }
     a.rainbow-5 { border-bottom-color: $rainbow-5; }
 }
+
+/* typography */
+h1 {
+    @include type-setting(4);
+    @include header-font;
+}
+
+h2 {
+    @include type-setting(2);
+    @include header-font;
+}
+
+p {
+    @include type-setting(0);
+    @include body-font;
+    padding-bottom: 1rem;
+}
+
+em {
+    @include body-font-italic;
+}
+
+strong {
+    @include body-font-bold;
+}
+
+a {
+    &:link {
+        @include body-font-bold;
+        color: $link;
+    }
+    &:visited {
+        color: $link;
+    }
+    &:hover {
+        color: $link-hover;
+        text-decoration: none;
+    }
+}
