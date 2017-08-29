@@ -5,10 +5,6 @@ title: 'sam whitehall : software developer in Oxford'
 baseurl: ''
 liveurl: 'http://www.samwhitehall.com'
 
-email: me@samwhitehall.com
-twitter: sgwhall
-github: samwhitehall
-
 sass:
   sass_dir: /assets/_sass
 collections:

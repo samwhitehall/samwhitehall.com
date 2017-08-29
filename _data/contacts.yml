@@ -1,0 +1,11 @@
+- title: Email
+  link: mailto:me@samwhitehall.com
+  icon_path: icons/mail.svg
+
+- title: Twitter
+  link: http://www.twitter.com/sgwhall
+  icon_path: icons/twitter.svg
+
+- title: GitHub
+  link: http://www.github.com/samwhitehall
+  icon_path: icons/github.svg

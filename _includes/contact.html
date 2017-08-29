@@ -1,19 +1,11 @@
 <nav id="contact">
     <ul>
+        {% for contact in site.data.contacts %}
         <li>
-            <a href="mailto:{{ site.email }}">
-                <img src="assets/images/mail.svg" alt="email" width="36" height="36">
+            <a href="{{ contact.link }}">
+                {% include {{ contact.icon_path }} %}
             </a>
         </li>
-        <li>
-            <a href="http://www.twitter.com/{{ site.twitter }}">
-                <img src="assets/images/twitter.svg" alt="twitter" width="36" height="36">
-            </a>
-        </li>
-        <li>
-            <a href="http://www.github.com/{{ site.github }}">
-                <img src="assets/images/github.svg" alt="github" width="36" height="36">
-            </a>
-        </li>
+        {% endfor %}
     </ul>
 </nav>

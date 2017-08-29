@@ -25,6 +25,16 @@ nav {
     ul { text-align: center; }
     li { display: inline; }
     a { text-decoration: none; }
+
+    svg {
+        width: 32px;
+        height: 32px;
+
+        path { fill: $body; }
+    }
+    svg:hover {
+        path { fill: $sub; }
+    }
 }
 
 nav#contact {
