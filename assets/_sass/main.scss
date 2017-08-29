@@ -34,8 +34,19 @@ nav#contact {
 }
 
 nav#site {
+    width: 100%;
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+
+    background: $background;
+
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
     margin-top: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 
     li {
         @include type-setting(2);
