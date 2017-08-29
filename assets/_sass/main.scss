@@ -73,36 +73,6 @@ nav#site {
         clear: both;
     }
 
-    // responsive breakpoints
-    @media (min-width: 360px) {
-        aside {
-            display: block;
-            width: 100%;
-            padding-right: 0;
-        }
-
-        section {
-            display: block;
-            width: 100%;
-        }
-    }
-
-    @media (min-width: 800px) {
-        aside {
-            float: left;
-            width: 33%;
-            padding-right: $box-padding;
-            box-sizing: border-box;
-        }
-
-        section {
-            float: right;
-            width: 66%; 
-            padding-left: $box-padding;
-            box-sizing: border-box;
-        }
-    }
-
     aside {
         h1 {
             @include type-setting(2);
@@ -132,6 +102,37 @@ nav#site {
     .rainbow-4 .pattern { background: $rainbow-4-light; }
     .rainbow-5 .pattern { background: $rainbow-5-light; }
 }
+
+/* responsive breakpoints */
+@media (min-width: 360px) {
+    aside {
+        display: block;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    section {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px) {
+    aside {
+        float: left;
+        width: 33%;
+        padding-right: $box-padding;
+        box-sizing: border-box;
+    }
+
+    section {
+        float: right;
+        width: 66%; 
+        padding-left: $box-padding;
+        box-sizing: border-box;
+    }
+}
+
 
 /* colours */
 body {
