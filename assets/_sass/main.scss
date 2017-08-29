@@ -64,7 +64,9 @@ nav#site {
     padding-left: $page-padding;
     padding-right: $page-padding;
 
-    .row { margin-bottom: 6rem; }
+    .row { 
+        padding-top: 8rem; 
+    }
 
     // clearfix 
     .row:after {
@@ -141,15 +143,15 @@ body {
 }
 
 nav#site {
-    a { 
+    li a { 
         color: $sub; 
         border-bottom: $thin-underline solid;
         padding-bottom: 4px;
     }
-    a:hover { 
+    li a:hover { 
         color: $body; 
     }
-    a.active { 
+    li.active a { 
         color: $body; 
         border-bottom-width: $thick-underline;
         padding-bottom: 4px - ($thick-underline - $thin-underline);
@@ -189,7 +191,7 @@ strong {
 
 a {
     &:link {
-        @include body-font-bold;
+        @include body-font;
         color: $link;
     }
     &:visited {
