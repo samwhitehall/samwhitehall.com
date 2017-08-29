@@ -60,7 +60,7 @@ nav#site {
     margin-left: auto;
     margin-right: auto;
 
-    width: $width; 
+    max-width: $width; 
     padding-left: $page-padding;
     padding-right: $page-padding;
 
@@ -73,11 +73,37 @@ nav#site {
         clear: both;
     }
 
-    aside {
-        float: left; 
-        width: (($width - 2 * $page-padding) * (1/3)) - (2 * $box-padding);
-        padding-right: $box-padding;
+    // responsive breakpoints
+    @media (min-width: 360px) {
+        aside {
+            display: block;
+            width: 100%;
+            padding-right: 0;
+        }
 
+        section {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 800px) {
+        aside {
+            float: left;
+            width: 33%;
+            padding-right: $box-padding;
+            box-sizing: border-box;
+        }
+
+        section {
+            float: right;
+            width: 66%; 
+            padding-left: $box-padding;
+            box-sizing: border-box;
+        }
+    }
+
+    aside {
         h1 {
             @include type-setting(2);
             @include body-font;
@@ -89,9 +115,6 @@ nav#site {
     }
 
     section {
-        float: right;
-        width: $width * (2/3); 
-        
         p:first-child {
             margin-top: $base-line-height;
         }
@@ -108,7 +131,6 @@ nav#site {
     .rainbow-3 .pattern { background: $rainbow-3-light; }
     .rainbow-4 .pattern { background: $rainbow-4-light; }
     .rainbow-5 .pattern { background: $rainbow-5-light; }
-
 }
 
 /* colours */
