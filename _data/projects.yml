@@ -1,0 +1,31 @@
+- name: Project Numero Uno
+  image: http://via.placeholder.com/120x120
+  links:
+      - name: Poster
+        url: '#'
+      - name: Report
+        url: '#'
+  description: >
+    Quisque id urna sapien. Mauris commodo in ex id fringilla. Etiam ex
+    libero, vulputate sit amet nunc at, malesuada hendrerit mi. Duis 
+    cursus maximus sollicitudin. Proin laoreet purus sit amet consequat 
+    scelerisque. Donec eget posuere est. Suspendisse facilisis quam vel 
+    mi pharetra sollicitudin.
+
+- name: Project The Second
+  image: http://via.placeholder.com/120x120
+  link: '#'
+  description: >
+      Nunc lobortis vestibulum sem, vitae porttitor enim fermentum at. Nunc 
+      molestie imperdiet congue. Sed et aliquam orci. Etiam egestas justo
+      eleifend, molestie urna semper, pretium dui. Class aptent taciti sociosqu
+      ad litora torquent per conubia nostra, per inceptos himenaeos. Duis
+      semper erat sit amet egestas hendrerit.
+
+- name: Third Project
+  image: http://via.placeholder.com/120x120
+  link: '#'
+  description: >
+       Aliquam pretium justo quis enim dapibus efficitur. Fusce a ligula mi.
+       Nunc rutrum urna sit amet eros posuere lacinia. Pellentesque dui enim,
+       dapibus ut erat id, pharetra tempus neque.

@@ -1,33 +1,27 @@
 {% include section/default.html %}
 
-<div class="project">
-    <aside>
-        <img src="http://via.placeholder.com/120x120">
-    </aside>
-    <section>
-        <a href="#"><h2>Project Numero Uno</h2></a>
-        <p>
-            Quisque id urna sapien. Mauris commodo in ex id fringilla. Etiam ex
-            libero, vulputate sit amet nunc at, malesuada hendrerit mi. Duis 
-            cursus maximus sollicitudin. Proin laoreet purus sit amet consequat 
-            scelerisque. Donec eget posuere est. Suspendisse facilisis quam vel 
-            mi pharetra sollicitudin.
-        </p>
-    </section>
-</div>
+{% for project in site.data.projects %}
+    <div class="project">
+        <aside>
+            <img src="{{ project.image }}">
+        </aside>
+        <section>
+            <h2>{{ project.name }}</h2>
 
-<div class="project">
-    <aside>
-        <img src="http://via.placeholder.com/120x120">
-    </aside>
-    <section>
-        <a href="#"><h2>Project The Second</h2></a>
-        <p>
-            Quisque id urna sapien. Mauris commodo in ex id fringilla. Etiam ex
-            libero, vulputate sit amet nunc at, malesuada hendrerit mi. Duis 
-            cursus maximus sollicitudin. Proin laoreet purus sit amet consequat 
-            scelerisque. Donec eget posuere est. Suspendisse facilisis quam vel 
-            mi pharetra sollicitudin.
-        </p>
-    </section>
-</div>
+            <p>
+                {{ project.description }}
+
+                {% for link in project.links %}
+                <a href="{{ link.link }}">{{ link.name }}</a>
+                {% if forloop.last == false %} | {% endif %}
+                {% endfor %}
+
+                {% if project.link %}
+                <a href="{{ project.link }}">View &raquo;</a>
+                {% endif %}
+            </p>
+            <p>
+            </p>
+        </section>
+    </div>
+{% endfor %}
