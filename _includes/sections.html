@@ -1,12 +1,5 @@
 <div id="wrapper">
 {% for section in site.sections %}
-    <div class="row rainbow-{{ section.colour }}" id="{{ section.name }}">
-        <aside>
-            <h1>{{ section.title }}</h1>
-            <div class="pattern">&nbsp;</div>
-        </aside>
-
-        {% include {{ section.layout }} %}
-    </div>
+    {% include {{ section.layout }} %}
 {% endfor %}
 </div>

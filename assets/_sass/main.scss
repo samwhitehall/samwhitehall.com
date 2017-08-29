@@ -78,8 +78,18 @@ nav#site {
         padding-top: 8rem; 
     }
 
+    .project {
+        margin-top: 2rem;
+    }
+
     // clearfix 
     .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .project:after {
         content: "";
         display: table;
         clear: both;
@@ -127,6 +137,8 @@ nav#site {
         display: block;
         width: 100%;
     }
+
+    .project aside { display: none; }
 }
 
 @media (min-width: 800px) {
@@ -143,6 +155,8 @@ nav#site {
         padding-left: $box-padding;
         box-sizing: border-box;
     }
+
+    .project aside { display: block; }
 }
 
 
@@ -211,4 +225,17 @@ a {
         color: $link-hover;
         text-decoration: none;
     }
+}
+
+.project aside {
+    text-align: right;
+}
+
+.project h2 {
+    @include type-setting(0);
+    @include body-font-bold;
+}
+
+.project p {
+    @include type-setting(-1);
 }

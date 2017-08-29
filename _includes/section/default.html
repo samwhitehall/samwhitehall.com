@@ -1,3 +1,10 @@
-<section>
-{{ section.content }}
-</section>
+<div class="row rainbow-{{ section.colour }}" id="{{ section.name }}">
+    <aside>
+        <h1>{{ section.title }}</h1>
+        <div class="pattern">&nbsp;</div>
+    </aside>
+
+    <section>
+        {{ section.content }}
+    </section>
+</div>
