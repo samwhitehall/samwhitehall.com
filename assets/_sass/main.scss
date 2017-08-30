@@ -81,7 +81,10 @@ nav#site {
     .project {
         margin-top: 2rem;
 
-        img { opacity: 0.5; }
+        aside { 
+            opacity: 0.5; 
+            text-align: right;
+        }
     }
 
     // clearfix 
@@ -207,6 +210,11 @@ p {
     padding-bottom: 1rem;
 }
 
+summary {
+    @include type-setting(-1);
+    @include body-font;
+}
+
 em {
     @include body-font-italic;
 }
@@ -229,15 +237,7 @@ a {
     }
 }
 
-.project aside {
-    text-align: right;
-}
-
-.project h2 {
+section h2 {
     @include type-setting(0);
     @include body-font-bold;
-}
-
-.project p {
-    @include type-setting(-1);
 }

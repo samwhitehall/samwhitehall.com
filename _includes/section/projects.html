@@ -8,7 +8,7 @@
         <section>
             <h2>{{ project.name }}</h2>
 
-            <p>
+            <summary>
                 {{ project.description }}
 
                 {% for link in project.links %}
@@ -19,9 +19,7 @@
                 {% if project.link %}
                 <a href="{{ project.link }}">View &raquo;</a>
                 {% endif %}
-            </p>
-            <p>
-            </p>
+            </summary>
         </section>
     </div>
 {% endfor %}
