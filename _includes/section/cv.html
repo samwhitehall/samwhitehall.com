@@ -1,0 +1,20 @@
+{% include section/default.html %}
+
+{% for entry in site.data.cv %}
+    <div class="project">
+        <aside>
+            {% if entry.dates %}
+            <h2>({{ entry.dates.from }} – {{ entry.dates.to }})</h2>
+            {% endif %}
+        </aside>
+        <section>
+            <h2>
+                {{ entry.title | markdownify | remove: '<p>' | remove: '</p>' }}
+            </h2>
+
+            <summary>
+                {{ entry.description | markdownify }}
+            </summary>
+        </section>
+    </div>
+{% endfor %}

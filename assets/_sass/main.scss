@@ -238,6 +238,13 @@ a {
     }
 }
 
+aside {
+    h2 {
+        @include type-setting(0);
+        @include body-font-italic;
+    }
+}
+
 section {
     h2 {
         @include type-setting(0);
