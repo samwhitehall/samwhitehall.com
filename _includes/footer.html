@@ -1,0 +1,13 @@
+<footer>
+    <blockquote>
+        &ldquo;People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.&rdquo;
+    </blockquote>
+    <cite>&mdash; Donald Knuth</cite>
+
+    {% capture footer %}{% include footer.md %}{% endcapture %}
+    {{ footer | markdownify }}
+
+    <div id="footer-icon">
+        {% include icons/heart.svg %}
+    </div>
+</footer>
