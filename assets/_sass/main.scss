@@ -238,6 +238,10 @@ a {
     }
 }
 
+code {
+    font-family: 'Menlo', 'Andale Mono', 'Droid Sans Mono', monospace;
+}
+
 aside {
     h2 {
         @include type-setting(0);
