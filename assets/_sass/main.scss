@@ -46,8 +46,6 @@ nav#contact {
 nav#site {
     width: 100%;
 
-    position: sticky;
-    position: -webkit-sticky;
     top: 0;
     z-index: 100;
 
@@ -57,7 +55,6 @@ nav#site {
     padding-bottom: 2rem;
 
     margin-top: 4rem;
-    margin-bottom: 8rem;
 
     li {
         @include type-setting(2);
@@ -73,11 +70,7 @@ nav#site {
     padding-left: $page-padding;
     padding-right: $page-padding;
 
-    .row { 
-        padding-top: 8rem; 
-    }
-
-    .project {
+    .project, .cv {
         margin-top: 2rem;
 
         aside { 
@@ -93,7 +86,7 @@ nav#site {
         clear: both;
     }
 
-    .project:after {
+    .project:after, .cv:after {
         content: "";
         display: table;
         clear: both;
@@ -130,13 +123,12 @@ nav#site {
 }
 
 footer {
-    padding-top: 10rem;
     padding-bottom: 2rem;
     margin-top: 12rem;
     text-align: center;
 
     blockquote { 
-        width: $width; 
+        max-width: $width * (2/3);
         margin-left: auto;
         margin-right: auto;
     }
@@ -148,9 +140,9 @@ footer {
     }
 
     p { 
+        max-width: $width / 2;
         margin-left: auto;
         margin-right: auto;
-        width: $width / 2; 
     }
 
     #footer-icon { margin-top: 2rem; }
@@ -164,22 +156,44 @@ footer {
 }
 
 /* responsive breakpoints */
-@media (min-width: 360px) {
+@media (min-width: 240px) {
+    nav#site li { display: block; }
+
     aside {
         display: block;
         width: 100%;
         padding-right: 0;
     }
 
+    .row { padding-top: 2rem; }
+
     section {
         display: block;
         width: 100%;
+
+    }
+
+    footer {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        padding-left: $page-padding;
+        padding-right: $page-padding;
+
+        p { width: 66%; }
     }
 
     .project aside { display: none; }
+    .cv aside h2 { text-align: left; }
 }
 
 @media (min-width: 800px) {
+    nav#site { 
+         position: sticky; 
+         position: -webkit-sticky; 
+         margin-bottom: 8rem;
+    }
+    nav#site li { display: inline; }
+
     aside {
         float: left;
         width: 33%;
@@ -187,14 +201,20 @@ footer {
         box-sizing: border-box;
     }
 
+    .row { padding-top: 8rem; }
+
     section {
         float: right;
         width: 66%; 
         padding-left: $box-padding;
         box-sizing: border-box;
+
     }
 
     .project aside { display: block; }
+    .cv aside h2 { text-align: right; }
+
+    footer { padding-top: 10rem; }
 }
 
 
@@ -228,7 +248,6 @@ nav#site {
 
 footer {
     background-color: $subtle-hint;
-
 }
 
 /* typography */
