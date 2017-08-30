@@ -268,7 +268,7 @@ p {
 }
 
 summary {
-    @include type-setting(-1);
+    @include type-setting(0);
     @include body-font;
 }
 
@@ -312,7 +312,7 @@ section {
     }
 
     ul, ol {
-        @include type-setting(-1);
+        @include type-setting(0);
         @include body-font;
         list-style-position: outside;
         margin-bottom: 1rem;
