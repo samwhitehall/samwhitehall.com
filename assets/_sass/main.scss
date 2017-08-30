@@ -49,6 +49,7 @@ nav#site {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index: 100;
 
     background: $background;
 
