@@ -246,9 +246,11 @@ nav#site {
     a.rainbow-5 { border-bottom-color: $rainbow-5; }
 }
 
-footer {
-    background-color: $subtle-hint;
-}
+#wrapper a:link { @include body-font-bold; }
+footer a:link { @include body-font-bold; }
+
+footer { background-color: $subtle-hint; }
+
 
 /* typography */
 h1 {
