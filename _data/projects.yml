@@ -1,31 +1,68 @@
-- name: Project Numero Uno
+- name: O.U.L.I.P.O
   image: http://via.placeholder.com/120x120
   links:
-      - name: Poster
-        url: '#'
+      - name: Play
+        url: 'http://www.oulipo.samwhitehall.com'
+      - name: GitHub
+        url: 'http://www.github.com/samwhitehall/oulipo'
+  description: >
+    A web app to generate surreal constrained poetry. The backend is developed 
+    in Django, and uses Celery to queue requests to SpaCy.io, with an Django
+    REST Framework API. The frontend is developed in Backbone.js.
+
+- name: ipython-bell
+  image: http://via.placeholder.com/120x120
+  links:
+      - name: GitHub
+        url: 'http://www.github.com/samwhitehall/ipython-bell'
+      - name: PyPI
+        url: 'https://pypi.python.org/pypi/IPythonBell'
+  description: >
+      IPython Bell is a simple magic for IPython and Jupyter Notebooks, which
+      notifies you when the current line/cell has finished execution. This is
+      particularly useful for long tasks. It can make sounds or use the OS's 
+      native notification API (cross-platform).
+
+- name: Semi-Skimmed vim
+  image: http://via.placeholder.com/120x120
+  description: >
+      Talk at The Oxford Mega Super Meetup Meetup, on a pragmatic approach to 
+      learning `vim`, to developers from a variety of technical backgrounds.
+  links:
+      - name: Slides
+        url: 'https://speakerdeck.com/samwhitehall/semi-skimmed-vim'
+            
+- name: Individual Research Project
+  image: http://via.placeholder.com/120x120
+  description: >
+      Masters-level literature review, reviewing statistical early warning 
+      signals for predicting tipping points in complex systems  comparing 
+      predictive efficacy with explicit process-based modelling. Winner of 
+      “Best Poster” award.
+  links:
       - name: Report
         url: '#'
-  description: >
-    Quisque id urna sapien. Mauris commodo in ex id fringilla. Etiam ex
-    libero, vulputate sit amet nunc at, malesuada hendrerit mi. Duis 
-    cursus maximus sollicitudin. Proin laoreet purus sit amet consequat 
-    scelerisque. Donec eget posuere est. Suspendisse facilisis quam vel 
-    mi pharetra sollicitudin.
+      - name: Poster
+        url: '#'
+      - name: Slides
+        url: '#'
 
-- name: Project The Second
+- name: Roger the Roomba
   image: http://via.placeholder.com/120x120
-  link: '#'
   description: >
-      Nunc lobortis vestibulum sem, vitae porttitor enim fermentum at. Nunc 
-      molestie imperdiet congue. Sed et aliquam orci. Etiam egestas justo
-      eleifend, molestie urna semper, pretium dui. Class aptent taciti sociosqu
-      ad litora torquent per conubia nostra, per inceptos himenaeos. Duis
-      semper erat sit amet egestas hendrerit.
+      Roomba robot programmed to follow a red ball (and play the Super Mario
+      Bros theme). PID control algorithm developed in C++ (OpenCV, Qt, serial
+      output) with [Dan Palmer](https://danpalmer.me) and Charlie Thompson.
+  links:
+      - name: YouTube
+        url: 'https://www.youtube.com/watch?v=TE2ok4G_hsA'
 
-- name: Third Project
+- name: samwhitehall.com
   image: http://via.placeholder.com/120x120
-  link: '#'
   description: >
-       Aliquam pretium justo quis enim dapibus efficitur. Fusce a ligula mi.
-       Nunc rutrum urna sit amet eros posuere lacinia. Pellentesque dui enim,
-       dapibus ut erat id, pharetra tempus neque.
+       Woah, meta? This site is a basic HTML/CSS design (including responsive
+       layout), statically generated using Jekyll with a tiny bit of Javascript
+       for scroll-spy logic.
+  links:
+      - name: GitHub
+        url: 'http://www.github.com/samwhitehall/samwhitehall.com'

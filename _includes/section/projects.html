@@ -9,10 +9,10 @@
             <h2>{{ project.name }}</h2>
 
             <summary>
-                {{ project.description }}
+                {{ project.description | markdownify }}
 
                 {% for link in project.links %}
-                <a href="{{ link.link }}">{{ link.name }}</a>
+                <a href="{{ link.url }}">{{ link.name }}</a>
                 {% if forloop.last == false %} | {% endif %}
                 {% endfor %}
 
