@@ -41,11 +41,9 @@
       “Best Poster” award.
   links:
       - name: Report
-        url: '#'
+        url: 'assets/docs/irp-report.pdf'
       - name: Poster
-        url: '#'
-      - name: Slides
-        url: '#'
+        url: 'assets/docs/irp-poster.pdf'
 
 - name: Roger the Roomba
   image: roger.png
