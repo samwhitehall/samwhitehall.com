@@ -1,5 +1,5 @@
 - name: O.U.L.I.P.O
-  image: http://via.placeholder.com/120x120
+  image: oulipo.png
   links:
       - name: Play
         url: 'http://www.oulipo.samwhitehall.com'
@@ -11,7 +11,7 @@
     REST Framework API. The frontend is developed in Backbone.js.
 
 - name: ipython-bell
-  image: http://via.placeholder.com/120x120
+  image: ipython-bell.png
   links:
       - name: GitHub
         url: 'http://www.github.com/samwhitehall/ipython-bell'
@@ -24,7 +24,7 @@
       native notification API (cross-platform).
 
 - name: Semi-Skimmed vim
-  image: http://via.placeholder.com/120x120
+  image: semi-skimmed-vim.png
   description: >
       Talk at The Oxford Mega Super Meetup Meetup, on a pragmatic approach to 
       learning `vim`, to developers from a variety of technical backgrounds.
@@ -33,7 +33,7 @@
         url: 'https://speakerdeck.com/samwhitehall/semi-skimmed-vim'
             
 - name: Individual Research Project
-  image: http://via.placeholder.com/120x120
+  image: irp.png
   description: >
       Masters-level literature review, reviewing statistical early warning 
       signals for predicting tipping points in complex systems  comparing 
@@ -48,7 +48,7 @@
         url: '#'
 
 - name: Roger the Roomba
-  image: http://via.placeholder.com/120x120
+  image: roger.png
   description: >
       Roomba robot programmed to follow a red ball (and play the Super Mario
       Bros theme). PID control algorithm developed in C++ (OpenCV, Qt, serial
@@ -58,7 +58,7 @@
         url: 'https://www.youtube.com/watch?v=TE2ok4G_hsA'
 
 - name: samwhitehall.com
-  image: http://via.placeholder.com/120x120
+  image: samwhitehall-com.png
   description: >
        Woah, meta? This site is a basic HTML/CSS design (including responsive
        layout), statically generated using Jekyll with a tiny bit of Javascript
