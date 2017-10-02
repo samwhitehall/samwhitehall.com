@@ -1,42 +1,74 @@
-- title: Karate Instructor, E-Corp
+- title: Software Developer, [Optimor Labs](http://www.optimorlabs.com)
   dates:
-      from: 2014
-      to: Present
+      from: July 2014
+      to: October 2017
   description: |
-    * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nisi
-      dictum augue aliquam malesuada sed non sem.
-    * Nunc scelerisque, nisl et euismod rutrum, mauris lectus tincidunt enim,
-      quis tempor ante augue faucibus neque.
-    * Curabitur eu dui nec justo eleifend cursus. In hac habitasse platea
-      dictumst.  Nulla sem urna, vestibulum quis velit eu, pellentesque iaculis
-      erat. Aliquam
-      vehicula enim fermentum quam rutrum convallis.
-    * Etiam ac metus scelerisque erat ultrices scelerisque non ac neque. Orci
-      varius natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Mauris finibus faucibus sollicitudin.
-    * Quisque sed turpis sed justo scelerisque blandit tincidunt lacinia
-      sapien.  Phasellus aliquet bibendum ultrices. Donec eleifend, tortor ac
-      fringilla blandit, mi massa ultrices arcu, eget dictum lectus erat sit 
-      amet sem. Donec eu nibh sollicitudin, varius augue quis, finibus enim.
+      * Key team member in a small start-up team, joining at a pivotal moment
+        to help develop our flagship product, 
+        [Billmonitor for Business](http://www.billmonitor.com).
+      * Developed new data pipeline and quality framework (Python), 
+        adapted and maintained tariff description rules (custom Python DSL) 
+        and modified statistical engine (C++) to support new market.
+      * Developed testing protocol & tooling, and managed a team of remote 
+        testers.
+      * Performed 4-month research project for a major household brand as well 
+        as multiple internal research projects.
+      * Took on various “lead developer” responsibilities including developing
+        HR process, on-boarding new technical hires, fostering a technical
+        culture within the company, developing a pragmatic roadmap to 
+        drastically improve the maintainability of our legacy codebase.
+      * **Tech Stack**: backend (Python), statistics engine (C++, Boost), 
+        business API (Flask), consumer frontend (Rails), business frontend 
+        (Angular), scrapers (Selenium), infrastructure (Docker/Ansible/AWS), 
+        tooling (GitHub/Jenkins/ELK).
 
-- title: Nexus Operator, [Tyrell Corporation](#)
+- title: Researcher, [Real Time Trains](http://www.realtimetrains.co.uk)
   dates:
-      from: 2012
-      to: 2014
+      from: July
+      to: September 2014
   description: |
-    * Phasellus in metus vulputate, pellentesque diam vitae, vulputate ex.
-      Fusce a hendrerit dui, sed ornare lectus. Ut viverra vulputate nunc eget
-      congue.  Nulla in lorem facilisis, lobortis dui et, dignissim risus.
-      Praesent eget bibendum magna, sed tincidunt nibh. Ut volutpat nisl metus,
-      quis hendrerit lorem venenatis id. Sed diam nibh, elementum a eros at,
-      condimentum interdum nisl.
-    * Aenean pellentesque leo eleifend erat imperdiet varius. Nulla imperdiet
-      neque a justo pharetra tempor. Nam sed nibh massa. Sed mollis nunc ut quam
-      ultrices ultricies. 
-    * Vestibulum non metus consequat, mollis turpis at, elementum velit.
-      Phasellus vestibulum lacus in diam lobortis, ut malesuada velit faucibus.
-      Sed ultrices finibus ipsum eget mollis.
+      * Developed and trained a proof-of-concept hidden Markov model for 
+        UK rail service platform prediction using machine learning on a 
+        snapshot of data. This involved data cleanup, training and evaluation.
+
+- title: Project Assistant (Intern), [University of Southampton](http://www.southampton.ac.uk)
+  dates:
+      from: July
+      to: September 2013
+  description: |
+      * Contributed to EU-funded [TrendMiner](http://www.trendminer-project.eu) 
+        project. Researched application of sparse inverse covariance matrices 
+        for machine learning and pattern extraction with high-dimensional 
+        natural language data using Python and Matlab. 
+      * Performed analysis to compare statistical correlations with ontological
+        relationships (from WordNet).
+      * Gave major technical presentation to academics, and non-technical 
+        lightning presentation to project stakeholders in Sofia.
 
 - title: Skills
   description: |
-    * Seagull identification, ability to swim 50 metres
+      * **Backend:** Python (including Django, Flask, Twisted, Celery, Django 
+        REST Framework), testing (nosetests), web scraping (bs4, Selenium).
+      * **Data Science:** Strong fundamentals in probability theory,
+        statistics and core machine-learning algorithms. Python (including 
+        pandas, scikit-learn, Jupyter, SpaCy, NLTK, matplotlib). 
+      * **DevOps:** Experience with virtualisation (Docker), deployment
+        (Fabric/Ansible), cloud (AWS/DigitalOcean), tooling
+        (Jenkins/Elasticsearch/Kibana), networking.
+      * **UNIX:** Regular user of UNIX command line (`bash`/`zsh`), proficiency
+        with standard tools including `vim` (primary editor) and `git`.  User 
+        of MacOS and Ubuntu.
+      * **Frontend:** Experienced with HTML/CSS, including Jekyll, SASS, 
+        Bootstrap, Foundation, reactive design. Some experience with
+        frontend frameworks (Backbone/Angular/React).
+      * **Databases:** Experience developing and administering MongoDB, MySQL,
+        PostgreSQL, SQLite.
+      * **Design:** Experience completing web/print design projects for clients
+        with Photoshop/InDesign.
+      * **Communication:** Published articles in student newspaper, public 
+        speaking experience, tutored English and presentation skills.
+        Competent speaker of German.
+
+- title: Education
+  description: |
+      * MEng Computer Science, University of Southampton. 1st (Hons).
