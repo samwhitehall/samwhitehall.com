@@ -46,9 +46,14 @@ $rainbow-5-light: lighten(#6a91a4, 33%);
     font-style: italic;
 }
 
+@mixin body-font-semibold() {
+    font-family: "Raleway", "Verdana", sans-serif;
+    font-weight: 600;
+}
+
 @mixin body-font-bold() {
     font-family: "Raleway", "Verdana", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 /* typographic baseline */

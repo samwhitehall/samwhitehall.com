@@ -246,7 +246,6 @@ nav#site {
     a.rainbow-5 { border-bottom-color: $rainbow-5; }
 }
 
-#wrapper a:link { @include body-font-bold; }
 footer a:link { @include body-font-bold; }
 
 footer { background-color: $subtle-hint; }
@@ -279,12 +278,11 @@ em {
 }
 
 strong {
-    @include body-font-bold;
+    @include body-font-semibold;
 }
 
 a {
     &:link {
-        @include body-font;
         color: $link;
     }
     &:visited {
@@ -295,6 +293,8 @@ a {
         text-decoration: none;
     }
 }
+
+p a:link, ul a:link { @include body-font-semibold; }
 
 code {
     font-family: 'Menlo', 'Andale Mono', 'Droid Sans Mono', monospace;
