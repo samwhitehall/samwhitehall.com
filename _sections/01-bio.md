@@ -5,8 +5,10 @@ colour: 1
 layout: section/default.html
 ---
 
-Sam is a computer scientist and software developer living in Oxford. He
-currently works as a developer and data engineer at [Optimor
+Sam is a computer scientist and software developer living in London, working
+as a full-stack developer at [EDITED](https://www.edited.com).
+
+Out of university, he worked as a developer and data engineer at [Optimor
 Labs](http://www.optimorlabs.com) -- a startup 
 saving U.K. consumers and businesses money on mobile phone bills through an
 advanced data-driven bill analysis and recommendation platform,
