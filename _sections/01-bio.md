@@ -22,12 +22,6 @@ was also the Online Manager for the [Wessex
 Scene](http://www.wessexscene.co.uk), Southampton University's student 
 newspaper, and actively involved in a variety of student societies.
 
-While most teenagers spent their time playing with fireworks, Sam wasted his
-learning web design, as well as making many regrettable Flash animations and
-games, co-hosting an embarrassingly fawning Apple podcast (thankfully with no 
-traces remaining on the internet) and trying to learn stop-motion (but lacking
-the patience).
-
 When he's not working, Sam enjoys; live music, learning guitar (very slowly), 
 rock climbing, reading (about pretty much anything), and cooking (ever-more
 adventurous meals).
