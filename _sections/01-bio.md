@@ -31,3 +31,7 @@ the patience).
 When he's not working, Sam enjoys; live music, learning guitar (very slowly), 
 rock climbing, reading (about pretty much anything), and cooking (ever-more
 adventurous meals).
+
+He is also actively seeking to offer his skills and time on to social & 
+environmental organisations, pro bono. Please get in touch if this 
+may be of interest.
